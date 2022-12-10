@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    color: white;
+}
+
+#digital-clock {
+ width: 100%;
+ margin: auto;
+ padding: 100px 20px 20px 20px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+ font-size: 100px;
+ text-align: center;
+}
+
+@media (max-width: 414px) and (min-width: 280px){
+    #digital-clock {
+        font-size: 58px;
+    }
+}
